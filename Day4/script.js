@@ -1,6 +1,6 @@
 // Array basic problems :
 
-// 1.
+// 1. Basics
 var arr = [12,13,14,15,156];
 console.log(arr.length); // array length
 console.log(arr[3]); // to print seperate value
@@ -27,7 +27,7 @@ console.log(str);
 var strn = "Dharun";
 console.log(str.trim(""));
 
-// 4.
+// 4.simple
 
 var abcd = "Dharun".split(" ");
 console.log(abcd);
@@ -47,6 +47,12 @@ var s1 = "kannan";
 var s2 = "Manivel";
 var s3 = s1 + s2;
 console.log(s3);
+
+// Numbers
+
+var a1 = 12;
+var a2 = 29;
+console.log(a1 + a2);
 
 // Numbers and string
 var s4 = 21;
