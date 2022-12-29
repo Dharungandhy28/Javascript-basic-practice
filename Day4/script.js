@@ -59,3 +59,12 @@ var s4 = 21;
 var s5 = "Hello";
 var s6 = s4 + s5;
 console.log(s6);
+
+// 6 Find the even number in a given array
+
+var eve = [1,12,11,47,98,96,218,728];
+for(var i=0; i<=eve.length; i++){
+    if(eve[i] % 2 === 0){
+        console.log(eve[i]);
+    }
+}
